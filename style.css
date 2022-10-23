@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(316, 71%, 44%);;
+  }
+h1{
+    text-align: center;
+    text-emphasis-color: white;
+    font-size: 70px;
+}
+  #container{
+    height: 750px;
+    width: 750px;
+    color: white;
+    background: #b070a8;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+  }
+  
+  #dogButton {
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 46px;
+   
+
+  }
+
+  #dogImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #dogButton:hover {
+    background-color:white; 
+    color: purple;
+  }
